@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: rgb(99, 99, 234);
+    padding: 0px;
+    color: aliceblue;
+}
+
+#header_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
