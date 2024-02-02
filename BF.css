@@ -32,6 +32,7 @@ li{
 #container{
     background-image: url(./picts/bowling_field.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +62,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
 }
 .baseball_container{
     background-color: aquamarine;
@@ -73,7 +75,26 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
 }
+
 h4{
     text-decoration: underline;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#contact_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: bold;
+    margin-top: 0px;
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}
+input{
+    padding-bottom: 10px;
 }
